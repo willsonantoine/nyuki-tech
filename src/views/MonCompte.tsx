@@ -1,4 +1,4 @@
-import { Image, ScrollView, StyleSheet, Text, TextInput, View } from "react-native"
+import { Image, ScrollView, StyleSheet, Text, TextInput,TouchableOpacity, View } from "react-native"
 import declare from "../config/variables";
 import MySeparator from "../components/MySeperator";
 
@@ -12,9 +12,9 @@ const MonCompte = () => {
                 <Text style={{ fontSize: 17 }}>Phone : +244339993</Text>
             </View>
             <MySeparator />
-            <View style={styles.card}>
+            <View style={styles.card}> 
                 <Image source={declare.APPLICATION_ICON} style={{ height: 60, width: 60 }} />
-                <Text style={{ fontSize: 20 }}>Mes produits</Text>
+                <Text style={{ fontSize: 20 }}>Mes produits</Text> 
             </View>
             <View style={styles.card}>
                 <Image source={declare.APPLICATION_ICON} style={{ height: 60, width: 60 }} />

@@ -8,10 +8,7 @@ import MySelect from "../components/MySelect";
 
 function AddMember(): JSX.Element {
 
-  const navigation: any = useNavigation();
-  const [open, setOpen] = useState(false);
-  const [value, setValue] = useState(null);
-
+  const navigation: any = useNavigation(); 
 
   return (
     <View style = {styles.containt}>
