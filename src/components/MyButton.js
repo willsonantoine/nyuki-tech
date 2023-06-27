@@ -13,7 +13,7 @@ const MyButton = (props)=>{
 const styles = StyleSheet.create({
     text:{
         color:'#FFFFFF',
-        padding:10,
+        padding:8,
         fontSize:17
     },
     button: {
@@ -21,7 +21,9 @@ const styles = StyleSheet.create({
       height:50,
       alignItems: 'center', 
       borderRadius:10,
-      marginTop:15
+      marginTop:15,
+      height:40,
+      marginRight:10
     }
 });
 

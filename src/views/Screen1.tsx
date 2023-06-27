@@ -16,7 +16,7 @@ function Screen1(): JSX.Element {
         <View style={styles.containt}>
             <View style={{ marginTop: 100, alignItems: 'center' }}>
                 <Image source={variables.APPLICATION_ICON} style={styles.icon} />
-                <Text style={{ paddingLeft: 10, paddingRight: 10, textAlign: 'center', color: '#475547', fontSize: 17 }}>Un système d'identification et de location des apiculteurs du Congo pour le bien-être du miel</Text>
+                <Text style={{ paddingLeft: 10, paddingRight: 10, textAlign: 'center', color: '#475547', fontSize: 17 }}>Un système de digitalisation  de l'apiculture  en RDC</Text>
             </View>
 
         </View>

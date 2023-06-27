@@ -5,9 +5,9 @@ const MySelect = (props) => {
     const [open, setOpen] = useState(false);
     const [value, setValue] = useState("null");
     const [items, setItems] = useState([
-        { label: 'Apple', value: 'apple' },
-        { label: 'Banana', value: 'banana' }
-    ]);
+        { label: 'Goma', value: 'Masisi' },
+        { label: 'Beni', value: 'Mangina' }
+      ]);
     
     return (
         <View style={styles.container}>
